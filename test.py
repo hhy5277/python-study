@@ -24,4 +24,6 @@ print listDemo[0]
 
 print listDemo[-2]
 
-listDemo.append()
+listDemo.append('cai')
+
+print  listDemo
