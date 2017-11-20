@@ -17,3 +17,16 @@ def lazy_sum(*args):
             ax = ax + n
         return ax
     return sum
+
+f = lazy_sum(1, 3, 5, 7, 9)
+
+print f
+
+# <function sum at 0x110737d70>
+
+print f()
+
+
+
+# 返回闭包时牢记的一点就是：返回函数不要引用任何循环变量，或者后续会发生变化的变量。
+
