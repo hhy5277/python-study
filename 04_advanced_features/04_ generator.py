@@ -3,6 +3,11 @@
 # list
 print [x * x for x in range(10)]
 
+a = dict({"a":1,"b":2})
+
+for s in a:
+    print s
+
 # generator
 
 g = (x * x for x in range(10))
@@ -23,3 +28,12 @@ def fib(max):
         n = n + 1
 
 fib(6)
+
+
+# def f(x,l=[]):
+#     for i in range(x):
+#         l.append(i*i)
+#     print l
+ 
+
+# f(3)
